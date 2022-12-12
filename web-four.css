@@ -1,0 +1,50 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: Kumbh Sans, Arial, Helvetica, sans-serif;
+    
+}
+#card{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+#top{
+    background-image: url(bg-pattern-card.svg);
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+img{
+    border-radius: 100%;
+    display: block;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+    
+}
+.flex{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div{
+    width: 100px;
+}
+p{
+    text-align: center;
+    color: gray;
+}
+.bold{
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
